@@ -101,7 +101,7 @@ a{
 .service-card{
   padding:20px;
   border-radius: 8px;  
-  color: white;
+  color: red;
   margin: 10px;
   position: relative;
   overflow: hidden;
@@ -160,14 +160,14 @@ a{
 }
 .stats{
   display: flex;
-  background: #e5faf8;
-  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
-  padding: 1.875em 0 .625em;
-  overflow: hidden;
-  margin: 3.125rem auto 5.5rem;
-  justify-content: space-between;
-  padding: 0 200px;
-  position: relative;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    justify-content: space-around;
+    padding: 0 200px;
+    position: relative;
+    height: 565px;
 }
 .stats-text{
   margin-top: 2em;
@@ -185,49 +185,51 @@ a{
 }
 .stats-logo-content{
   background-color: white;
-  width: 182px;
-  height: 251px;
-  margin: 23px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-evenly;
+    width: 220px;
+    height: 237px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
 }
 .stats-logo-content p{
   font-size: .875em;
 }
 .stats-logo-content h3{
   color: #52B39B;
+  font-size: 25px;
 }
 .stats-logo{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 456px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 456px;
 }
 .logo-bottom{
   position: absolute;
-  left: 39px;
-  top: 345px;
+    left: 39px;
+    top: 252px;
 }
 .two-bloc{
-  padding-top: 25px
+  padding-top: 25px;
+  display: flex;
+  width: 487px;
+  flex-flow: wrap;
 }
 .two-bloc div{
   border-radius: 7px;
 }
 .offices{
   margin-bottom: 70px;
-}
-.offices-slider{
   display: flex;
   flex-wrap: wrap;
 }
 .office{
   flex: 1;
 }
-.offices-slider div:hover{
+.office:hover{
 -webkit-box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
 box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
