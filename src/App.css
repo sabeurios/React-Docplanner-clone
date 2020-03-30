@@ -143,9 +143,11 @@ a{
 .brands-logo{
   height: 70px;
     margin-top: 26px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+}
+.brands-logo div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .brands-logo svg{
   width: 112px;
